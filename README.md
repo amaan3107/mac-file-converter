@@ -2,6 +2,12 @@
 
 A small Mac app that converts files locally — no uploading to websites. Once installed, it appears as **The Converter**.
 
+![The Converter window with photos, a video, a PDF, audio and a Word document ready to convert](docs/screenshots/main.png)
+
+| Converting (dark mode) | Empty window |
+|---|---|
+| ![Converting a video with a progress bar](docs/screenshots/converting-dark.png) | ![Empty window ready for files](docs/screenshots/empty.png) |
+
 ## Right-click in Finder
 Select one or more files, right-click → **Quick Actions** (or **Services**):
 
@@ -45,6 +51,7 @@ Images, PDFs and documents use macOS's built-in frameworks. Audio/video use `ffm
 ```
 Compiles the app, installs it to `~/Applications/The Converter.app`, and registers the right-click actions.
 `Tools/make_plist.py` regenerates `Info.plist` if you change the right-click menu.
+`Tools/make_screenshots.sh` regenerates the screenshots above.
 
 ## License
 MIT — see [LICENSE](LICENSE).
