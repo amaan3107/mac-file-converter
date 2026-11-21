@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>The Converter</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Convertible File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.image</string>
+				<string>public.movie</string>
+				<string>public.audio</string>
+				<string>com.adobe.pdf</string>
+				<string>public.rtf</string>
+				<string>com.apple.rtfd</string>
+				<string>public.plain-text</string>
+				<string>public.html</string>
+				<string>org.openxmlformats.wordprocessingml.document</string>
+				<string>com.microsoft.word.doc</string>
+				<string>org.oasis-open.opendocument.text</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>TheConverter</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.theconverter.app</string>
+	<key>CFBundleName</key>
+	<string>The Converter</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Convert with The Converter</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>convertFiles</string>
+			<key>NSPortName</key>
+			<string>The Converter</string>
+			<key>NSRequiredContext</key>
+			<dict/>
+			<key>NSSendFileTypes</key>
+			<array>
+				<string>public.image</string>
+				<string>public.movie</string>
+				<string>public.audio</string>
+				<string>com.adobe.pdf</string>
+				<string>public.rtf</string>
+				<string>com.apple.rtfd</string>
+				<string>public.plain-text</string>
+				<string>public.html</string>
+				<string>org.openxmlformats.wordprocessingml.document</string>
+				<string>com.microsoft.word.doc</string>
+				<string>org.oasis-open.opendocument.text</string>
+			</array>
+		</dict>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Convert to JPG</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>quickConvert</string>
+			<key>NSPortName</key>
+			<string>The Converter</string>
+			<key>NSRequiredContext</key>
+			<dict/>
+			<key>NSSendFileTypes</key>
+			<array>
+				<string>public.image</string>
+				<string>com.adobe.pdf</string>
+			</array>
+			<key>NSUserData</key>
+			<string>jpg</string>
+		</dict>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Convert to PDF</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>quickConvert</string>
+			<key>NSPortName</key>
+			<string>The Converter</string>
+			<key>NSRequiredContext</key>
+			<dict/>
+			<key>NSSendFileTypes</key>
+			<array>
+				<string>public.image</string>
+				<string>public.rtf</string>
+				<string>com.apple.rtfd</string>
+				<string>public.plain-text</string>
+				<string>public.html</string>
+				<string>org.openxmlformats.wordprocessingml.document</string>
+				<string>com.microsoft.word.doc</string>
+				<string>org.oasis-open.opendocument.text</string>
+			</array>
+			<key>NSUserData</key>
+			<string>pdf</string>
+		</dict>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Combine into PDF</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>combineToPDF</string>
+			<key>NSPortName</key>
+			<string>The Converter</string>
+			<key>NSRequiredContext</key>
+			<dict/>
+			<key>NSSendFileTypes</key>
+			<array>
+				<string>public.image</string>
+				<string>com.adobe.pdf</string>
+				<string>public.rtf</string>
+				<string>com.apple.rtfd</string>
+				<string>public.plain-text</string>
+				<string>public.html</string>
+				<string>org.openxmlformats.wordprocessingml.document</string>
+				<string>com.microsoft.word.doc</string>
+				<string>org.oasis-open.opendocument.text</string>
+			</array>
+		</dict>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Convert to MP4</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>quickConvert</string>
+			<key>NSPortName</key>
+			<string>The Converter</string>
+			<key>NSRequiredContext</key>
+			<dict/>
+			<key>NSSendFileTypes</key>
+			<array>
+				<string>public.movie</string>
+			</array>
+			<key>NSUserData</key>
+			<string>mp4</string>
+		</dict>
+		<dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Convert to MP3</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>quickConvert</string>
+			<key>NSPortName</key>
+			<string>The Converter</string>
+			<key>NSRequiredContext</key>
+			<dict/>
+			<key>NSSendFileTypes</key>
+			<array>
+				<string>public.audio</string>
+				<string>public.movie</string>
+			</array>
+			<key>NSUserData</key>
+			<string>mp3</string>
+		</dict>
+	</array>
+</dict>
+</plist>
