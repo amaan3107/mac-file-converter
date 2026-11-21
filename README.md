@@ -1,6 +1,6 @@
-# The Converter
+# Mac File Converter
 
-A small Mac app that converts files locally — no uploading to websites.
+A small Mac app that converts files locally — no uploading to websites. Once installed, it appears as **The Converter**.
 
 ## Right-click in Finder
 Select one or more files, right-click → **Quick Actions** (or **Services**):
