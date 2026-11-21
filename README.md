@@ -45,3 +45,6 @@ Images, PDFs and documents use macOS's built-in frameworks. Audio/video use `ffm
 ```
 Compiles the app, installs it to `~/Applications/The Converter.app`, and registers the right-click actions.
 `Tools/make_plist.py` regenerates `Info.plist` if you change the right-click menu.
+
+## License
+MIT — see [LICENSE](LICENSE).
